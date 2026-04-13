@@ -1,0 +1,12 @@
+# Never commit credentials
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+superset-env/
+
+# Data files (too large for GitHub)
+*.csv
